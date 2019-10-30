@@ -1,8 +1,12 @@
+path_configuration:
+
 extraction:
   cpp:
       configure: 
         command:
           - ./configure
+      before_index:
+         - cd src
       index:
         build_command: 
-          - ./build lnx
+          - make
