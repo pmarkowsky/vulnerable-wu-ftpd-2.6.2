@@ -3,3 +3,5 @@ extraction:
       configure: 
         command:
           - ./configure
+      index:
+        build_command: make
