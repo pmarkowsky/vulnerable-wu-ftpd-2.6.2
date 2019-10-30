@@ -4,4 +4,4 @@ extraction:
         command:
           - ./configure
       index:
-        build_command: make
+        build_command: make lnx
